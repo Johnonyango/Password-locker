@@ -48,7 +48,7 @@ def main():
 
        short_code = input().lower()
 
-#*****CC-CREATING ACCOUNT*****
+#*****CC-CREATE ACCOUNT*****
        if short_code == 'cc':
            print("New Account")
            print("-"*10)
@@ -89,7 +89,7 @@ def main():
                 #*****DELETE PASSWORD*****
         
        elif short_code == 'dl':
-           print("Enter the name,password you want to delete")
+           print("Enter the name and the password account you want to delete")
 
            print("Delete Account")
            print("-"*10)
@@ -100,23 +100,18 @@ def main():
            print("Last name ...")
            l_name = input()
 
-
            print("Password")
            password_input = input()
-
-
            delete_password(password)
            print ('\n')
-           print(f"Account for password: {password_input} deleted !!!")
-           print ('\n')
-        
+           print(f"Account deleted succesfully !!!")
         
         #*****EXIT ACCOUNT*****
        elif short_code == "ex":
            print("You have logged out.Thanks for your time,GOOD BYE! .......")
            break
        else:
-           print("This server says: Please use the short codes provided to navigate")
+           print("The server. Please use the short codes")
 
 if __name__ == '__main__':
 
