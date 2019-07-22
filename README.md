@@ -1,6 +1,6 @@
 # PASSWORD LOCKER
 
-## Built By [John Onyango]()
+## Built By [John Onyango](https://github.com/Johnonyango)
 
 ## Description
 Password Locker is a terminal run python application that allows users to create accounts using their names save,delete and display the accounts created.
@@ -14,7 +14,23 @@ As a user I would like:
 * Generate a password for a new credential/account
 
 ##BDD
-
+<table>
+   <tr>
+     <th>Behavior</th>
+     <th>Input</th>
+     <th>Output</th>
+   </tr>
+   <tr>
+       <td>Welcomes the user to the application</td>
+       <td>The user inputs the preffered short code</td>
+       <td>The app directs the user according to the short code input</td>
+   </tr>
+   <tr>
+       <td>cc, disp, dl, ex</td>
+       <td>create , display, delete, exit</td>
+       <td>The app performs the keyed in instruction</td>
+   </tr>
+</table>
 ## SetUp / Installation Requirements
 ### Prerequisites
 * python3.6
@@ -25,7 +41,7 @@ As a user I would like:
 ### Cloning
 * In your terminal:
 
-        $ git clone 
+        $ git clone https://github.com/Johnonyango/Password-locker.git
         $ cd Password-locker
 
 ## Running the Application
