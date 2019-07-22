@@ -22,11 +22,11 @@ As a user I would like:
    </tr>
    <tr>
        <td>Welcomes the user to the application</td>
-       <td>The user inputs the preffered short code</td>
+       <td>cc,disp,dl,ex</td>
        <td>The app directs the user according to the short code input</td>
    </tr>
    <tr>
-       <td>cc, disp, dl, ex</td>
+       <td>The user inputs the preffered short code</td>
        <td>create , display, delete, exit</td>
        <td>The app performs the keyed in instruction</td>
    </tr>
